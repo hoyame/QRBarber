@@ -14,5 +14,5 @@ app.get('/', (req, res) => res.send('wev'));
 app.use('/api', apiRoutes)
 
 app.listen(port, function () {
-    console.log("Running api template on port " + port);
+    console.log("Running API : " + port);
 });
